@@ -39,6 +39,19 @@ To use this, you should create a txt file.
 After doing this, you should then rename it to .gitignore and save it into your root directory.
 On Windows Explorer, you should use the command “.gitignore.” and then windows should remove the trailing dot.
 
+Status:
+To use this command, you must use git status.
+With this command it lists all of your files that you have created.
+It lists all the modified file that you have made in the working area.
+It also lists all the added files that you have created in the staging area.
+It lists the current branch that you are working on at that moment.
+
+
+Branch:
+To use this command, you must use git branch new_branch_name.
+With this command, it creates a new branch in your local repository.
+To look at all the branches that you have created in your local repository, you must use the command git branch -a/-l/-r.
+
 
 
 
