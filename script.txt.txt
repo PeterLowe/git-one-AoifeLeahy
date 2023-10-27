@@ -53,5 +53,12 @@ With this command, it creates a new branch in your local repository.
 To look at all the branches that you have created in your local repository, you must use the command git branch -a/-l/-r.
 
 
+Push:
+To use this command, you must use git push.
+The reason for using this command is so that you can update the remote node with the current node that you are working on at that moment.
+You need to associate the remote node.
+The command git push -u origin master pushes the local master or main to the origin on the server.
+
+
 
 
