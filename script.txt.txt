@@ -15,3 +15,17 @@ This reset command removes a file from the staging area.
 You can commit without it meaning that you can do much more with it and add to it.
 
 
+Commit:
+To use this command, you must use git commit -m “comment”. Git commit.
+This will enter the editor mode to enter the multiline comment. 
+This command commits or “saves” your file.
+It creates a new revision point onto your local repository.
+There is another command that you can use that it associated with the commit command.
+This command is git commit -amend.
+This command allows this commit to be joined to a previous commit rather than just as a separate one.
+
+
+
+
+
+
