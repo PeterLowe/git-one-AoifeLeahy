@@ -60,5 +60,15 @@ You need to associate the remote node.
 The command git push -u origin master pushes the local master or main to the origin on the server.
 
 
+Merge:
+To use this command, you must use the command git merge master.
+The purpose of using this command, is that it merges the head with the master.
+If separate, git will automatically apply changes.
+If the two don’t merge and there is a problem with doing so or if there is any conflict between them. There will be a warning.
+You should edit the file(s) and the add it. After doing this you should then commit it.
+When using this command, you should merge the main into your branch. 
+Only merge it your branch into main when it is ready for everyone, as it will help to avoid any conflict or problems in the future.
+You should also merge early into the project to ensure that everyone is happy with it and they are on the same page, which will avoid problems in the future.
+
 
 
