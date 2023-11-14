@@ -79,4 +79,12 @@ Can use wildcards and -r for recursive
 Use - - cached to remove from staging area
 Use -f to use on working directory
 
+Git add .:
+This command adds new files that will go to your directory. You should use the command git add .
+You need to make sure that you spell it right and also add the period at the end in order for this command to work.
+When using this command it will add files except for the ones that are matching from .gitignore.
+You can also alternatively use the command git add filename/pattern.
+When using this command, it only adds files to the next commit only.
+If you modify the file after adding it but before actually committing, you should then add it again. This will ignore the first modified version.
+
 
